@@ -6,6 +6,8 @@ function FavoriteFood() {
 	};
 }
 
+
+
 angular
 	.module('app')
 	.filter('favoriteFood', FavoriteFood);
